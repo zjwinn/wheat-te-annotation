@@ -1,0 +1,3 @@
+GENOTYPE: "Hilliard"
+ASSEMBLY_FASTA: "../1_Assembly/results/ragtag/ragtag.scaffold.fasta"
+TREP_FASTA: "resources/trep-db_nr_Rel-19.fasta"
