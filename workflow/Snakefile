@@ -1,5 +1,3 @@
-#/project/gbru_wheat2/fhb/conda/annotation_env
-
 GENOTYPE = config['GENOTYPE']
 ASSEMBLY_FASTA = config['ASSEMBLY_FASTA']
 TREP_FASTA = config['TREP_FASTA']

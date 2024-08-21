@@ -2,7 +2,31 @@
 
 This pipeline uses repeatmasker, repeatmodeler, and the TREP database  (v. 2019, https://trep-db.uzh.ch/) to annotate and mask transposable elements (TEs) in a wheat genome assembly.
 
+# Workflow
 
+1. Install software into a conda environment
+
+```
+conda create --name te_env
+source activate te_env
+conda install snakemake seqkit repeatmodeler repeatmasker 
+```
+
+2. Clone the repository and edit config.yaml and snakemake_batch.sh files to fit your job.
+
+3. Run snakemake
+
+Use batch script to submit job to SLURM. See example script below.
+
+```
+sbatch snakemake.slurm
+```
+
+Or, run snakemake locally.
+
+```
+snakemake --cores 'all' --configfile config/config.yml
+```
 
 ### SLURM file
 
@@ -25,7 +49,7 @@ Example SLURM file named "snakemake.slurm":
 module load miniconda3
 
 # Activate the correct environment
-source activate annotation_env
+source activate te_env
 
 # Perform the analysis with a pointer to the config file
 snakemake --cores 'all' --configfile config/config.yml
