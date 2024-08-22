@@ -1,6 +1,10 @@
-# wheat-te-annotation
+# Wheat Transposable Element (TE) Annotation Pipeline
 
 This pipeline uses repeatmasker, repeatmodeler, and the TREP database  (v. 2019, https://trep-db.uzh.ch/) to annotate and mask transposable elements (TEs) in a wheat genome assembly.
+
+# Overall Workflow Visualization
+
+![A visualization of the overall workflow provided by Snakemake](https://github.com/zjwinn/wheat-te-annotation/blob/main/dag.svg)
 
 # Workflow
 
