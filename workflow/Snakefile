@@ -1,7 +1,7 @@
 GENOTYPE = config['GENOTYPE']
 ASSEMBLY_FASTA = config['ASSEMBLY_FASTA']
 TREP_FASTA = config['TREP_FASTA']
-SUBGENOMES = ["A", "B", "D", "ptg"]
+SUBGENOMES = config['SUBGENOMES']
 
 rule all:
     input:
