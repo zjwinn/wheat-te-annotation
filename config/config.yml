@@ -1,4 +1,4 @@
-GENOTYPE: "Hilliard"
-ASSEMBLY_FASTA: "../1_Assembly/results/ragtag/ragtag.scaffold.fasta"
+GENOTYPE: "LA03136E71"
+ASSEMBLY_FASTA: "/home/zachary.winn/zjwinn_project_directory/scaffold_assembly_LA03136E71/Group_7_LA03136E71.ragtag.scaffold.fa"
 TREP_FASTA: "resources/trep-db_nr_Rel-19.fasta"
 SUBGENOMES: ["D"]
